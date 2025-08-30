@@ -1,0 +1,141 @@
+[2024-10-01T00:00:18.468+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:00:18.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:00:18.475+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:00:18.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:00:21.350+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:00:22.828+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:00:22.826+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:00:23.038+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:00:23.038+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:00:23.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 4.802 seconds
+[2024-10-01T00:01:00.729+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:01:00.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:01:00.744+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:01:00.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:01:03.927+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:01:04.217+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:01:04.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:01:04.447+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:01:04.446+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:01:05.875+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 5.168 seconds
+[2024-10-01T00:01:37.397+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:01:37.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:01:37.408+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:01:37.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:01:39.986+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:01:40.187+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:01:40.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:01:40.428+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:01:40.427+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:01:40.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 3.157 seconds
+[2024-10-01T00:02:11.484+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:02:11.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:02:11.489+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:02:11.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:02:12.731+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:02:12.829+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:02:12.826+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:02:12.901+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:02:12.900+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:02:13.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.542 seconds
+[2024-10-01T00:02:43.387+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:02:43.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:02:43.394+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:02:43.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:02:44.608+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:02:44.652+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:02:44.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:02:44.756+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:02:44.756+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:02:44.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.498 seconds
+[2024-10-01T00:03:21.234+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:03:21.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:03:21.242+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:03:21.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:03:22.526+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:03:22.566+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:03:22.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:03:22.635+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:03:22.635+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:03:22.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.526 seconds
+[2024-10-01T00:03:57.198+0000] {processor.py:186} INFO - Started process (PID=266) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:03:57.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:03:57.206+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:03:57.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:03:58.515+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:03:58.625+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:03:58.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:03:58.718+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:03:58.718+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:03:59.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.846 seconds
+[2024-10-01T00:04:31.369+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:04:31.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:04:31.377+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:04:31.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:04:32.883+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:04:32.934+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:04:32.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:04:33.020+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:04:33.019+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:04:33.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.803 seconds
+[2024-10-01T00:05:04.567+0000] {processor.py:186} INFO - Started process (PID=274) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:05:04.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:05:04.575+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:05:04.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:05:05.874+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:05:05.942+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:05:05.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:05:06.007+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:05:06.006+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:05:06.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.621 seconds
+[2024-10-01T00:05:37.605+0000] {processor.py:186} INFO - Started process (PID=278) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:05:37.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:05:37.611+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:05:37.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:05:38.861+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:05:38.930+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:05:38.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:05:39.013+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:05:39.013+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:05:39.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.521 seconds
+[2024-10-01T00:06:12.797+0000] {processor.py:186} INFO - Started process (PID=282) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:06:12.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:06:12.802+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:06:12.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:06:14.129+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:06:14.217+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:06:14.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:06:14.283+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:06:14.283+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:06:14.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.589 seconds
+[2024-10-01T00:06:49.923+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:06:49.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:06:49.930+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:06:49.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:06:51.260+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:06:51.339+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:06:51.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:06:51.405+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:06:51.405+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:06:51.487+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.578 seconds
+[2024-10-01T00:07:53.579+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:07:53.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:07:53.726+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:07:53.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:07:57.009+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:07:57.095+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:07:57.094+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:07:57.153+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:07:57.152+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:07:57.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 3.700 seconds
+[2024-10-01T00:08:53.804+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:08:53.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:08:53.810+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:08:53.809+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:08:54.872+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:08:55.122+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:08:55.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:08:55.240+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:08:55.240+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:08:55.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.572 seconds
+[2024-10-01T00:09:55.467+0000] {processor.py:186} INFO - Started process (PID=298) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:09:55.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:09:55.549+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:09:55.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:09:58.736+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:09:59.040+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:09:59.038+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:09:59.141+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:09:59.140+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:09:59.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 4.062 seconds
+[2024-10-01T00:10:55.748+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:10:55.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:10:55.752+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:10:55.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:10:56.774+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:10:57.052+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:10:57.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:10:57.080+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:10:57.079+0000] {dag.py:3262} INFO - Creating ORM DAG for youtube_etl
+[2024-10-01T00:10:57.106+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:10:57.106+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:10:57.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.563 seconds
+[2024-10-01T00:11:57.093+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:11:57.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:11:57.129+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:11:57.128+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:11:58.786+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:11:58.836+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:11:58.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:11:58.901+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:11:58.900+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:11:58.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.917 seconds
+[2024-10-01T00:12:58.839+0000] {processor.py:186} INFO - Started process (PID=413) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:12:58.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:12:58.860+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:12:58.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:13:02.017+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:13:02.255+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:13:02.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:13:02.369+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:13:02.369+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-09-30 00:00:00+00:00, run_after=2024-10-01 00:00:00+00:00
+[2024-10-01T00:13:02.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 3.769 seconds
+[2024-10-01T00:14:23.267+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:14:23.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:14:23.275+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:14:23.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:14:25.533+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:14:25.576+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:14:25.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:14:25.617+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:14:25.616+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2024-10-01T00:14:25.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 2.444 seconds
+[2024-10-01T00:15:02.102+0000] {processor.py:186} INFO - Started process (PID=526) to work on /opt/airflow/dags/YT-D.py
+[2024-10-01T00:15:02.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/YT-D.py for tasks to queue
+[2024-10-01T00:15:02.108+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:15:02.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:15:03.483+0000] {processor.py:925} INFO - DAG(s) 'youtube_etl' retrieved from /opt/airflow/dags/YT-D.py
+[2024-10-01T00:15:03.550+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:15:03.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T00:15:03.643+0000] {logging_mixin.py:190} INFO - [2024-10-01T00:15:03.643+0000] {dag.py:4180} INFO - Setting next_dagrun for youtube_etl to 2024-10-01 00:00:00+00:00, run_after=2024-10-02 00:00:00+00:00
+[2024-10-01T00:15:03.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/YT-D.py took 1.660 seconds

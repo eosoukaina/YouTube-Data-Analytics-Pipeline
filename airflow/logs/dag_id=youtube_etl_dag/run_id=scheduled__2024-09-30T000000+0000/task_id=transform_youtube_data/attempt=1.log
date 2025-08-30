@@ -1,0 +1,42 @@
+[2024-10-01T00:20:31.763+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-01T00:20:31.794+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_etl_dag.transform_youtube_data scheduled__2024-09-30T00:00:00+00:00 [queued]>
+[2024-10-01T00:20:31.819+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_etl_dag.transform_youtube_data scheduled__2024-09-30T00:00:00+00:00 [queued]>
+[2024-10-01T00:20:31.822+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-01T00:20:31.888+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform_youtube_data> on 2024-09-30 00:00:00+00:00
+[2024-10-01T00:20:31.906+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'youtube_etl_dag', 'transform_youtube_data', 'scheduled__2024-09-30T00:00:00+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/youtube_etl_dag.py', '--cfg-path', '/tmp/tmpmemeg1la']
+[2024-10-01T00:20:31.911+0000] {standard_task_runner.py:105} INFO - Job 39: Subtask transform_youtube_data
+[2024-10-01T00:20:31.917+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=558) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-01T00:20:31.920+0000] {standard_task_runner.py:72} INFO - Started process 563 to run task
+[2024-10-01T00:20:32.066+0000] {task_command.py:467} INFO - Running <TaskInstance: youtube_etl_dag.transform_youtube_data scheduled__2024-09-30T00:00:00+00:00 [running]> on host 48d27440b63b
+[2024-10-01T00:20:32.326+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='Hanane' AIRFLOW_CTX_DAG_ID='youtube_etl_dag' AIRFLOW_CTX_TASK_ID='transform_youtube_data' AIRFLOW_CTX_EXECUTION_DATE='2024-09-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-30T00:00:00+00:00'
+[2024-10-01T00:20:32.329+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-01T00:20:32.404+0000] {logging_mixin.py:190} INFO - airflow here...
+[2024-10-01T00:21:12.400+0000] {python.py:240} INFO - Done. Returned value was: /opt/airflow/data/Youtube_Data_transformation.csv/
+[2024-10-01T00:21:13.441+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-01T00:21:13.443+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=youtube_etl_dag, task_id=transform_youtube_data, run_id=scheduled__2024-09-30T00:00:00+00:00, execution_date=20240930T000000, start_date=20241001T002031, end_date=20241001T002113
+[2024-10-01T00:21:13.560+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-01T00:21:13.812+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-01T00:21:13.837+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-10-01T00:27:11.199+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-01T00:27:11.272+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_etl_dag.transform_youtube_data scheduled__2024-09-30T00:00:00+00:00 [queued]>
+[2024-10-01T00:27:11.310+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_etl_dag.transform_youtube_data scheduled__2024-09-30T00:00:00+00:00 [queued]>
+[2024-10-01T00:27:11.314+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-01T00:27:11.493+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform_youtube_data> on 2024-09-30 00:00:00+00:00
+[2024-10-01T00:27:11.520+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'youtube_etl_dag', 'transform_youtube_data', 'scheduled__2024-09-30T00:00:00+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/youtube_etl_dag.py', '--cfg-path', '/tmp/tmp6g9by93k']
+[2024-10-01T00:27:11.534+0000] {standard_task_runner.py:105} INFO - Job 39: Subtask transform_youtube_data
+[2024-10-01T00:27:11.553+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=936) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-01T00:27:11.558+0000] {standard_task_runner.py:72} INFO - Started process 941 to run task
+[2024-10-01T00:27:12.530+0000] {task_command.py:467} INFO - Running <TaskInstance: youtube_etl_dag.transform_youtube_data scheduled__2024-09-30T00:00:00+00:00 [running]> on host 48d27440b63b
+[2024-10-01T00:27:13.208+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='Hanane' AIRFLOW_CTX_DAG_ID='youtube_etl_dag' AIRFLOW_CTX_TASK_ID='transform_youtube_data' AIRFLOW_CTX_EXECUTION_DATE='2024-09-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-30T00:00:00+00:00'
+[2024-10-01T00:27:13.210+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-01T00:27:13.284+0000] {logging_mixin.py:190} INFO - airflow here...
+[2024-10-01T00:27:35.767+0000] {job.py:229} INFO - Heartbeat recovered after 10.81 seconds
+[2024-10-01T00:28:03.866+0000] {job.py:229} INFO - Heartbeat recovered after 15.51 seconds
+[2024-10-01T00:28:19.938+0000] {job.py:229} INFO - Heartbeat recovered after 25.54 seconds
+[2024-10-01T00:28:28.312+0000] {job.py:229} INFO - Heartbeat recovered after 11.60 seconds
+[2024-10-01T00:28:53.722+0000] {python.py:240} INFO - Done. Returned value was: /opt/airflow/data/Youtube_Data_transformation.csv/
+[2024-10-01T00:28:53.863+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-01T00:28:53.865+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=youtube_etl_dag, task_id=transform_youtube_data, run_id=scheduled__2024-09-30T00:00:00+00:00, execution_date=20240930T000000, start_date=20241001T002711, end_date=20241001T002853
+[2024-10-01T00:28:53.999+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-01T00:28:54.462+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-01T00:28:54.480+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

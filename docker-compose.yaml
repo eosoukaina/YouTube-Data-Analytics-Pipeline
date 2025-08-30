@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  airflow_pipeline:
+    build: .
+    image: airflow-youtube-pipeline:latest
+    volumes:
+      - ./airflow:/opt/airflow
+    ports:
+      - "8080:8080"
+    command: airflow standalone
