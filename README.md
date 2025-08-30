@@ -142,7 +142,7 @@ Create visualizations to explore the YouTube data and derive insights.
 In this project, we successfully developed a robust ETL pipeline that extracts data from the YouTube Data API, transforms it using PySpark, and loads it into AWS S3 for further analysis. By orchestrating the entire process with Apache Airflow, we ensured efficient workflow management and seamless execution. The integration with AWS QuickSight allows for insightful data visualization, enabling users to gain valuable insights into YouTube channel performance. This project not only demonstrates the effectiveness of using modern data engineering tools but also showcases the potential for scalable and efficient data processing solutions in the realm of data analytics.
 
 
-## Contact Me
+## Contact
 
 For questions or suggestions, feel free to reach out:
 
